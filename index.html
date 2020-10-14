@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; background-color: black;">
+
+    <div style=" color: white; position: fixed; margin: 1%;" class="select-none">
+        <span>Score : </span><span id='score'>0</span>
+    </div>
+
+
+    <div id='model' class='fixed inset-0 flex items-center justify-center'>
+        <div class="bg-white max-w-md w-full p-6 text-center">
+            <h1 class="text-4xl font-bold leading-none" id='finalScore'>0</h1>
+            <p class="text-sm text-gray-700">Points</p>
+            <div>
+                <button id="startGame" class="bg-blue-500 text-white w-full py-2 rounded-full mt-2">Start Game</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- canvas -->
+    <canvas></canvas>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
