@@ -6,4 +6,4 @@ This Game is created using HTML(Canvas) and javascript.
 * User have to fire bullets according to Ball size.
 * When Ball reach the center Game is over.
 
-URL : https://prince3855.github.io/Ball-Blast-2/
+URL : https://prince3855.github.io/ball-shooting-game/
